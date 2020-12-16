@@ -15,12 +15,12 @@
         justify-content: center;
     }
     .section4 #carusel ul li {
-        width: 250px;
-        height: 100px;
+        width: 300px;
+        height: 130px;
     }
     .section4 #carusel {
-        width: 300px;
-        height: 120px;
+        width: 350px;
+        height: 150px;
     }
     .section4 #carusel ul .right-pos {
         display: none; 
@@ -202,11 +202,11 @@ header .container-fluid .rounded-circle{
     width: 40%;
 }
 .section4 #carusel ul li {
-    width: 340px;
+    width: 350px;
     height: 150px;
 }
 .section4 #carusel {
-    width: 390px;
+    width: 400px;
     height: 170px;
 }
 .section4 #carusel ul .right-pos {
@@ -346,28 +346,28 @@ footer .container-fluid .menu .developer h4{
         width: 42%;
     }
     .section4 #carusel ul li {
-        width: 340px;
-        height: 150px;
+        width: 350px;
+        height: 210px;
     }
     .section4 #carusel {
         width: 390px;
-        height: 170px;
+        height: 220px;
     }
     .section4 #carusel ul .right-pos {
         opacity: .3;
-        margin-left: 10em !important;
+        margin-left: 8em !important;
         z-index: 1000;
-        -webkit-transform: scale(0.9);
-        -moz-transform: scale(0.9);
-        transform: scale(0.9); 
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        transform: scale(0.95); 
     }
     .section4 #carusel ul .left-pos {
         opacity: .3;
-        margin-left: -7em !important;
+        margin-left: -4em !important;
         z-index: 1000;
-        -webkit-transform: scale(0.9);
-        -moz-transform: scale(0.9);
-        transform: scale(0.9);
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        transform: scale(0.95);
     }
     #carusel > ul{
         padding: 0;
