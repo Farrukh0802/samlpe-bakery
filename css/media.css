@@ -1,0 +1,889 @@
+@media(max-width: 400px ){
+    header .container-fluid .rounded-circle{
+        margin-left: 30px;
+    }
+    .section1 .carusel .carousel-inner .carousel-item .content1 h1{
+        font-size: 42px;
+    }
+    .section1 .carusel .carousel-inner .carousel-item .content2 h2{
+        font-size: 24px;
+    }
+    .section3 .cake img{
+        width: 80%;
+    }
+    .section3 .cake{
+        justify-content: center;
+    }
+    .section4 #carusel ul li {
+        width: 250px;
+        height: 100px;
+    }
+    .section4 #carusel {
+        width: 300px;
+        height: 120px;
+    }
+    .section4 #carusel ul .right-pos {
+        display: none; 
+    }
+    .section4 #carusel ul .left-pos {
+        display: none; 
+    }
+    #carusel > ul{
+        padding: 0;
+    }
+    .section5 .row1 img {
+        margin-left: 10px;
+        margin-top: 2px;
+        margin-right: 2px;
+        width: 15;
+        height: 20.4px; 
+    }
+    .section5 .row2 img {
+        margin-left: 10px;
+        margin-top: 25px;
+        margin-right: 2px;
+        width: 15;
+        height: 16px; 
+    }
+    .section5 .row3 img {
+        margin-left: 10px;
+        margin-right: 2px;
+        width: 15;
+        height: 16px;
+        margin-top: 35px; 
+    }
+    .section5 .row1 .col-4 .col1 p, .section5 .row2 .col-4 .col2 p, .section5 .row3 .col-4 .col3 p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .section5 .row3 .col-4 .col3 p{
+        margin-top: 4px;
+    }
+    .section5 .row1 .col-6, .section5 .row2 .col-6, .section5 .row3 .col-6 {
+        margin-left: 10px !important; 
+    }
+    .section5 .row1 .col-6 .form-control > input::placeholder{
+        font-size: 10px;
+    }
+    .section5 .row3 .col-6 .btn-black{
+        display: flex;
+        justify-content: center;
+    }
+    .section5 .row3 .col-6 .btn-black .send{
+        margin-left: -90%;
+        padding: 5px 110px;
+    }
+    footer .container-fluid .menu{
+        display: flex;
+        justify-content: center;
+    }
+    footer .container-fluid .menu ul{
+        display: flex;
+        flex-direction: row;
+    }
+    footer .container-fluid .menu ul li a .facebook{
+        margin-top: 20px;
+    }
+    footer .container-fluid .menu ul li a .twitter{
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    footer .container-fluid .menu ul li a .instagram{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    footer .container-fluid .menu .logo .rounded-circle{
+        margin-left: 0;
+    }
+    footer .container-fluid .menu .developer h4{
+        margin-bottom: 0;
+        margin-top: 5px;
+        font-size: 20px;
+        padding: 0 45px;
+    }
+    .logo{
+        margin-top: 20px;
+    }
+}
+@media(max-width: 345px ){
+    header .container-fluid .rounded-circle{
+        display: none;
+    }
+    .section3 ul a{
+        margin: 5px 10px;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px;
+    }
+}
+@media(max-width: 767px){
+    header .container-fluid #menu ul li{
+        margin: 0;
+        text-align: center;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    .section2 .row .col-4 p{
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .section2 h2{
+        font-size: 24px;
+    }
+    .section2 .line{
+        margin-bottom: 50px;
+        width: 130px;
+    }
+    .section3 h2{
+        margin-top: 0;
+    }
+    .section3 h2, .section4 h2, .section5 h2{
+        font-size: 24px;
+    }
+    .section5 h2{
+        margin-top: 30px;
+    }
+    .section5 .line{
+        margin-bottom: 30px;
+        width: 140px;
+    }
+    .section4 .line{
+        margin-bottom: 40px;
+        width: 180px; 
+    }
+    .section3 .line{
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    .section3 ul a{
+        margin: 5px 10px;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section1 .carusel .carousel-inner .carousel-item .content1 h1{
+        font-size: 42px;
+    }
+    .section1 .carusel .carousel-inner .carousel-item .content2 h2{
+        font-size: 24px;
+    }
+    header .container-fluid #menu ul .contact{
+        margin-right: 10px!important;
+    }
+
+}
+@media(min-width: 768px){
+    .brand{
+        display: flex;
+    }
+}
+@media(min-width: 768px) and (max-width: 985px){
+    header .container-fluid #menu ul .contact{
+        margin-right: 0px!important;
+    }
+    header .container-fluid #menu ul li{
+        margin: 36px 10px;
+}
+header .container-fluid .rounded-circle{
+    margin-left: 30px;
+}}
+@media(min-width: 400px) and (max-width:575px){
+.section3 ul a{
+    margin: 5px 10px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.section3 .cake img{
+    width: 40%;
+}
+.section4 #carusel ul li {
+    width: 340px;
+    height: 150px;
+}
+.section4 #carusel {
+    width: 390px;
+    height: 170px;
+}
+.section4 #carusel ul .right-pos {
+    display: none; 
+}
+.section4 #carusel ul .left-pos {
+    display: none; 
+}
+#carusel > ul{
+    padding: 0;
+}
+.section5 .row1 img {
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-right: 2px;
+    width: 15;
+    height: 20.4px; 
+}
+.section5 .row2 img {
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-right: 2px;
+    width: 15;
+    height: 16px; 
+}
+.section5 .row3 img {
+    margin-left: 10px;
+    margin-right: 2px;
+    width: 15;
+    height: 16px;
+    margin-top: 35px; 
+}
+.section5 .row1 .col-4 .col1 p, .section5 .row2 .col-4 .col2 p, .section5 .row3 .col-4 .col3 p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.section5 .row3 .col-4 .col3 p{
+    margin-top: 4px;
+}
+.section5 .row1 .col-6, .section5 .row2 .col-6, .section5 .row3 .col-6 {
+    margin-left: 10px !important; 
+}
+.section5 .row1 .col-6 .form-control > input::placeholder{
+    font-size: 10px;
+}
+.section5 .row3 .col-6 .btn-black{
+    display: flex;
+    justify-content: center;
+}
+.section5 .row3 .col-6 .btn-black .send{
+    margin-left: -90%;
+    padding: 5px 80%;
+}
+footer .container-fluid .menu{
+    display: flex;
+    justify-content: center;
+}
+footer .container-fluid .menu ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0 70px;
+}
+footer .container-fluid .menu ul li a .facebook{
+    margin-top: 20px;
+}
+footer .container-fluid .menu ul li a .twitter{
+    margin-right: 0;
+    margin-top: 20px;
+}
+footer .container-fluid .menu ul li a .instagram{
+    margin-left: 0;
+    margin-top: 20px;
+}
+footer .container-fluid .menu .logo .rounded-circle{
+    margin-left: 0;
+}
+footer .container-fluid .menu .developer h4{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 0 80px;
+}
+.logo{
+    margin-top: 20px;
+}
+}
+@media(max-width:575px){
+.section2 .row > .col-4{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.section2 .row .img1, .section2 .row .img1 .img2 {
+    display: none;
+}
+}
+@media(min-width:470px) and (max-width: 495px){
+    .section3 ul a{
+        margin: 5px 10px;
+        font-size: 20px;
+        line-height: 24px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+@media(min-width:496px) and (max-width: 575px){
+    .section3 ul a{
+        margin: 5px 10px;
+        font-size: 20px;
+        line-height: 24px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .section3 ul{
+        padding: 0 10%;
+    }
+}
+
+@media(min-width:576px) and (max-width: 767px){
+    .section2 .row .img1{
+        width: 200px;
+        height: 400px;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+    .section2 .row .img1 > img{
+        width: 170px;
+    }
+    .section2 .row .img1 .img2{
+        width: 180px;
+        right: -48%;
+        top: -7%;
+    }
+    .section2 .row .img1 .img2 > img{
+        width: 150px;
+    }
+    .section3 .cake img{
+        width: 42%;
+    }
+    .section4 #carusel ul li {
+        width: 340px;
+        height: 150px;
+    }
+    .section4 #carusel {
+        width: 390px;
+        height: 170px;
+    }
+    .section4 #carusel ul .right-pos {
+        opacity: .3;
+        margin-left: 10em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        transform: scale(0.9); 
+    }
+    .section4 #carusel ul .left-pos {
+        opacity: .3;
+        margin-left: -7em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    #carusel > ul{
+        padding: 0;
+    }
+    .section5 .row1 img {
+        margin-left: 20px;
+        margin-top: 2px;
+        margin-right: 2px;
+        width: 15;
+        height: 20.4px; 
+    }
+    .section5 .row2 img {
+        margin-left: 20px;
+        margin-top: 25px;
+        margin-right: 2px;
+        width: 15;
+        height: 16px; 
+    }
+    .section5 .row3 img {
+        margin-left: 20px;
+        margin-right: 2px;
+        width: 15;
+        height: 16px;
+        margin-top: 35px; 
+    }
+    .section5 .row1 .col-4 .col1 p, .section5 .row2 .col-4 .col2 p, .section5 .row3 .col-4 .col3 p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .section5 .row3 .col-4 .col3 p{
+        margin-top: 4px;
+    }
+    .section5 .row1 .col-6, .section5 .row2 .col-6, .section5 .row3 .col-6 {
+        margin-left: 20px !important; 
+    }
+    .section5 .row1 .col-6 .form-control > input::placeholder{
+        font-size: 10px;
+    }
+    .section5 .row3 .col-6 .btn-black{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .section5 .row3 .col-6 .btn-black .send{
+        margin-left: -85%;
+        margin-right: 0;
+        padding: 5px 84%;
+    }
+    footer .container-fluid .menu{
+        display: flex;
+        justify-content: center;
+    }
+    footer .container-fluid .menu ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0 130px;
+    }
+    footer .container-fluid .menu ul li a .facebook{
+        margin-top: 20px;
+    }
+    footer .container-fluid .menu ul li a .twitter{
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    footer .container-fluid .menu ul li a .instagram{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    footer .container-fluid .menu .logo .rounded-circle{
+        margin-left: 0;
+    }
+    footer .container-fluid .menu .developer h4{
+        margin-bottom: 0;
+        margin-top: 5px;
+        font-size: 20px;
+        padding: 0 100px;
+    }
+    .logo{
+        margin-top: 20px;
+        padding: 0 100px;
+    }
+    }
+    @media(max-width:575px){
+    .section2 .row > .col-4{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .section2 .row .img1, .section2 .row .img1 .img2 {
+        display: none;
+    }
+}
+@media(min-width:768px) and (max-width: 859px){
+    .section2 .row .img1{
+        width: 250px;
+        margin-left: 10%;
+    }
+    .section2 .row .img1 > img{
+        width: 220px;
+    }
+    .section2 .row .img1 .img2{
+        width: 210px;
+        right: -50%;
+        top: -8%;
+    }
+    .section2 .row .img1 .img2 > img{
+        width: 190px;
+    }
+    .section2 .line{
+        margin-bottom: 70px;
+        width: 145px;
+    }
+    .section2 .row .col-4 p{
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .section3 h2, .section4 h2, .section2 h2, .section5 h2{
+        font-size: 30px;
+    }
+    .section3 h2{
+        margin-top: 0;
+    }
+    .section4 .line{
+        margin-bottom: 40px;
+        width: 210px;
+    }
+    .section3 .line{
+        margin-bottom: 24px;
+        width: 176px;
+    }
+    .section5 .line{
+        width: 165px;
+    }
+    .section3 .cake img{
+        width: 45%;
+    }
+    .section3 ul a{
+        margin: 5px 10px;
+        font-size: 24px;
+        line-height: 32px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .section4 #carusel ul li {
+        width: 440px;
+        height: 200px;
+    }
+    .section4 #carusel {
+        width: 490px;
+        height: 220px;
+    }
+    .section4 #carusel ul .right-pos {
+        opacity: .3;
+        margin-left: 10em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        transform: scale(0.9); 
+    }
+    .section4 #carusel ul .left-pos {
+        opacity: .3;
+        margin-left: -7em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    #carusel > ul{
+        padding: 0;
+    }
+    .section5 .row1 img {
+        margin-left: 25px;
+        margin-top: 2px;
+        margin-right: 2px;
+        width: 20;
+        height: 25.4px; 
+    }
+    .section5 .row2 img {
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-right: 2px;
+        width: 20;
+        height: 22px; 
+    }
+    .section5 .row3 img {
+        margin-left: 25px;
+        margin-right: 2px;
+        width: 20;
+        height: 22px;
+        margin-top: 35px; 
+    }
+    .section5 .row1 .col-4 .col1 p, .section5 .row2 .col-4 .col2 p, .section5 .row3 .col-4 .col3 p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .section5 .row3 .col-4 .col3 p{
+        margin-top: 24px;
+    }
+    .section5 .row1 .col-6, .section5 .row2 .col-6, .section5 .row3 .col-6 {
+        margin-left: 30px !important; 
+    }
+    .section5 .row1 .col-6 .form-control > input::placeholder{
+        font-size: 10px;
+    }
+    .section5 .row3 .col-6 .btn-black{
+        display: flex;
+        justify-content: center;
+    }
+    .section5 .row3 .col-6 .btn-black .send{
+        border-radius: unset;
+        margin-top: 30px;
+        margin-left: auto;
+        padding: 5px 70px;
+    }
+    footer .container-fluid .menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .container-fluid .menu ul li a .twitter{
+        margin-right: 20px;
+    }
+    footer .container-fluid .menu .logo .rounded-circle{
+        margin-left: 20px;
+    }
+    footer .container-fluid .menu .developer h4{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+}@media(min-width: 860px) and (max-width: 990px) {
+    .section4 #carusel {
+        width: 530px;
+        height: 240px;
+    }
+    .section5 .row1 img {
+        margin-left: 45px;
+        margin-top: 2px;
+        margin-right: 10px;
+        width: 23;
+        height: 28.4px; 
+    }
+    .section5 .row2 img {
+        margin-left: 45px;
+        margin-top: 20px;
+        margin-right: 10px;
+        width: 23;
+        height: 25px; 
+    }
+    .section5 .row3 img {
+        margin-left: 45px;
+        margin-right: 10px;
+        width: 23;
+        height: 25px;
+        margin-top: 30px; 
+    }
+    .section5 .row1 .col-4 .col1 p, .section5 .row2 .col-4 .col2 p, .section5 .row3 .col-4 .col3 p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .section5 .row3 .col-4 .col3 p{
+        margin-top: 24px;
+    }
+    .section5 .row1 .col-6, .section5 .row2 .col-6, .section5 .row3 .col-6 {
+        margin-left: 30px !important; 
+    }
+    .section5 .row1 .col-6 .form-control > input::placeholder{
+        font-size: 10px;
+    }
+    .section5 .row3 .col-6 .btn-black{
+        display: flex;
+        justify-content: center;
+    }
+    .section5 .row3 .col-6 .btn-black .send{
+        border-radius: unset;
+        margin-top: 30px;
+        margin-left: auto;
+        padding: 5px 70px;
+    }
+    .section5 h2{
+        margin-top: 30px;
+    }
+    footer .container-fluid .menu ul li a .twitter{
+        margin-right: 25px;
+    }
+    footer .container-fluid .menu .logo .rounded-circle{
+        margin-left: 25px;
+    }
+}
+    @media(min-width:576px) and (max-width: 860px){
+    
+    .section2 h2, .section3 h2, .section4 h2, .section5 h2{
+        font-size: 30px;
+    }
+    .section5 h2{
+        margin-top: 30px;
+    }
+    .section3 h2{
+        margin-top: 0;
+    }
+    .section2 .line{
+        margin-bottom: 100px;
+        width: 150px;
+    }
+    .section3 .line{
+        margin-bottom: 20px;
+        width: 180px;
+    }
+    .section4 .line{
+        margin-bottom: 100px;
+        width: 220px;
+    }
+    .section5 .line{
+        margin-bottom: 100px;
+        width: 160px;
+    }
+}
+@media(min-width: 860px){
+    .section2 .row .img1{
+        width: 300px;
+        margin-left: 6%;
+    }
+    .section2 .row .img1 > img{
+        width: 270px;
+    }
+    .section2 .row .img1 .img2{
+        width: 260px;
+        right: -52%;
+        top: -10%;
+    }
+    .section2 .row .img1 .img2 > img{
+        width: 240px;
+    }
+    .section2 .row .col-4 p{
+        margin-top: 10px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .section3 .cake img{
+        width: 45%;
+    }
+    .section3 ul a{
+        margin: 5px 10px;
+        font-size: 24px;
+        line-height: 36px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .section4 #carusel ul li {
+        width: 490px;
+        height: 220px;
+    }
+    .section4 #carusel ul .right-pos {
+        opacity: .3;
+        margin-left: 13em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8); 
+    }
+    .section4 #carusel ul .left-pos {
+        opacity: .3;
+        margin-left: -10em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    #carusel > ul{
+        padding: 0;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    .section2 .row .img1{
+        width: 340px;
+        margin-left: 6%;
+    }
+    .section2 .row .img1 > img{
+        width: 310px;
+    }
+    .section2 .row .img1 .img2{
+        width: 310px;
+        right: -55%;
+        top: -12%;
+    }
+    .section2 .row .img1 .img2 > img{
+        width: 280px;
+    }
+    .section2 .line{
+        margin-bottom: 100px;
+        width: 150px;
+    }
+    .section2 .row .col-4 p{
+        margin-top: 10px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .section2 h2{
+        font-size: 30px;
+    }
+    .section3 .cake img {
+        width: 30%;
+        height: 25%;
+        margin: 1rem; }
+    .section3 ul a{
+        margin: 5px 15px;
+        font-size: 24px;
+        line-height: 36px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }.section4 #carusel ul li {
+        width: 580px;
+        height: 280px;
+    }
+    .section4 #carusel {
+        width: 620px;
+        height: 300px;
+    }
+    .section4 #carusel ul .right-pos {
+        opacity: .3;
+        margin-left: 16em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8); 
+    }
+    .section4 #carusel ul .left-pos {
+        opacity: .3;
+        margin-left: -13em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    #carusel > ul{
+        padding: 0;
+    }
+    footer .container-fluid .menu ul li a .twitter{
+        margin-right: 30px;
+    }
+    footer .container-fluid .menu .logo .rounded-circle{
+        margin-left: 30px;
+    }
+}
+@media(min-width: 1200px){
+    .section2 h2 {
+        margin: 67px 0 0 0;
+        font-weight: 700;
+        font-family: "Mukta-Medium"; } .section2 .line {
+        content: "";
+        background-color: #DA802D;
+        display: block;
+        width: 158px;
+        height: 4px;
+        margin: auto;
+        margin-bottom: 120px; } .section2 .row {
+        margin-right: 0; }
+    .section2 .row .col-4 p {
+        margin-top: 48px;
+        font-family: "Roboto-Regular";
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 39px; }
+     .section2 .row .img1 {
+        position: relative;
+        margin-left: 57px;
+        width: 416px;
+        height: 529px; }
+       .section2 .row .img1 .img2 {
+          position: absolute;
+          width: 358px;
+          height: 456px;
+          right: -68%;
+          top: -13%; } 
+          .section2 .row .img1 .img2 > img{
+              width: 358px;
+          }
+          .section2 .row .img1 > img{
+              width: 416px;
+          }
+          .section3 .cake img {
+            width: 30%;
+            height: 25%;
+            margin: 1rem; }
+    .section3 ul a{
+        margin: 5px 16px;
+        font-size: 24px;
+        line-height: 39px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .section4 #carusel ul .left-pos {
+        opacity: .3;
+        margin-left: -17em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        transform: scale(0.75); 
+    }
+    .section4 #carusel ul .right-pos {
+        opacity: .3;
+        margin-left: 21em !important;
+        z-index: 1000;
+        -webkit-transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        transform: scale(0.75); 
+    } 
+    .section4 #carusel ul li {
+        width: 700px;
+        height: 350px;
+    }
+    #carusel > ul{
+        padding-left: 40px;
+    }
+
+}
+@media (min-width: 990px) and (max-width: 1030px) {
+    .section3 .cake img{
+        width: 28%;
+    }
+    
+}
