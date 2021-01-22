@@ -397,6 +397,9 @@ footer {
                display: flex;
                padding: 0 10px;
             }
+            .slick-list{
+               overflow: hidden;
+            }
             .slider{
                position: relative;
                margin-top: 50px;
