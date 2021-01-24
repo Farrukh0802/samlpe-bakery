@@ -110,7 +110,7 @@ $(document).ready(function(){
     
             //отменяем стандартную обработку нажатия по ссылке
     
-            event.preventDefault();
+            // event.preventDefault();
     
             //забираем идентификатор бока с атрибута href
     
@@ -136,6 +136,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
+        prevArrow: '<button class="slick__btn slick-prev"><img src="images/prev.png" alt=""></button>',
+        nextArrow: '<button class="slick__btn slick-next"><img src="images/next.png" alt=""></button>',
         responsive: [
           {
             breakpoint: 1024,
@@ -159,5 +161,60 @@ $(document).ready(function(){
             }
           }
         ]
+      });
+
+      $('.product__item').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.product__slider__info',
+        prevArrow: '<button class="slick__btn slick-prev"><img src="images/prev.png" alt=""></button>',
+        nextArrow: '<button class="slick__btn slick-next"><img src="images/next.png" alt=""></button>'
+      });
+      $('.product__slider__info').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        asNavFor: '.product__item',
+        arrows: false
+      });
+      $('.slider__cake').slick({
+        lazyLoad: 'ondemand',
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        autoplay: true,
+        waitForAnimation: false,
+        autoplaySpeed: 2000,
+        centerMode: true,
+        asNavFor: ".sliderBig__cake",
+        prevArrow: '<button class="slick__btn slick-prev"><img src="images/prev.png" alt=""></button>',
+        nextArrow: '<button class="slick__btn slick-next"><img src="images/next.png" alt=""></button>',
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 400,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      $('.sliderBig__cake').slick({
+        arrows: false,
+        fade: true,
+        asNavFor: ".slider__cake"
       });
     });

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css"/>
+  </head>
+  <body>
+      <header class="head">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-md menu navbar-dark">
+            <div class="brand">
+              <a href="index.html"><img alt="" class="rounded-circle" src="images/image 2.png"/></a>
+            <a href="index.html" class="navbar-brand name">Dilorom`s Bakery</a>
+            </div>
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="product.html" class="nav-link" style="color: #909090;">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a href="weeding.html" class="nav-link">Wedding</a>
+                </li>
+                <li class="nav-item">
+                  <a href="event.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item contact">
+                  <a href="contact.html" class="nav-link">Contacts</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+<section class="product__page">
+    <h2 class="text-center">Like sweets?</h2>
+    <p class="text-center">Good! We got lots of - and more.</p>
+    <div class="product__slider">
+        <div class="product__item">
+          <img src="images/about-6.jpg" alt="">
+          <img src="images/about-2.jpg" alt="">
+          <img src="images/about-5.jpg" alt="">
+        </div>
+        <div class="product__slider__info">
+            <div class="product__info">
+                <h4>Lorem, ipsum.</h4>
+                <span>$5 | $8 | $12</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Voluptate esse quisquam quo dignissimos 
+                    eaque accusantium dolorem earum at aut numquam.elit. 
+                    Perferendis harum omnis quas deserunt quasi eligendi quaerat fugiat officia! Corrupti exercitationem 
+                    debitis similique facilis atque nihil sint optio aperiam, facere delectus.</p> 
+                <button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#myproduct">Order now</button>
+            </div>
+            <div class="product__info">
+                <h4>Voluptate esse</h4>
+                <span>$3 | $8 | $10</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Voluptate esse quisquam quo dignissimos 
+                    eaque accusantium dolorem earum at aut numquam.</p>
+                <button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#myproduct">Order now</button>
+            </div>
+            <div class="product__info">
+                <h4>Sit amet</h4>
+                <span>$5 | $8 | $12</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Voluptate esse quisquam quo dignissimos 
+                    eaque accusantium dolorem earum at aut numquam.
+                    Perferendis harum omnis quas deserunt quasi eligendi quaerat fugiat officia! Corrupti exercitationem 
+                    debitis similique facilis atque nihil sint optio aperiam, facere delectus.</p>
+                <button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#myproduct">Order now</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade show" id="myproduct">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>Fast deliver-service!</h4>
+              <span class="close" data-dismiss="modal">&times</span>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="number">Phone number</label>
+                <input type="number" class="form-control" id="number" placeholder="+998 (__)" required>
+              </div>
+              <div class="form-group">
+                <label for="product">Choose our product</label>
+                <select class="form-control" id="product">
+                  <option value="1">Cupcake 1 piece - $2</option>
+                  <option value="2">Cheese roll 1 piece - $5</option>
+                  <option value="3">Potato Ball 5 piece - $2</option>
+                  <option value="4">Chocalate cake 1 piece - $5</option>
+                  <option value="5">Sprink cookie 1 piece - $1</option>
+                </select>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-dark">Send</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+</section>
+
+
+<footer class="foot">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md menu">
+        <div class="logo">
+          <a href="index.html"
+            ><img alt="" class="rounded-circle" src="images/image 2.png"
+          /></a>
+          <a href="index.html" class="navbar-brand name">Dilorom`s Bakery</a>
+        </div>
+        <div class="developer">
+          <h4>Developed by Farrukh </h4>
+        </div>
+        <ul class="navbar-nav media">
+          <li class="nav-item">
+            <a href="https://instagram.com" class="nav-link"
+              ><img src="icons/Vector (1).png" class="instagram" alt=""
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://facebook.com" class="nav-link"
+              ><img src="icons/Vector (2).png" class="facebook" alt=""
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com" class="nav-link"
+              ><img src="icons/Vector (3).png" class="twitter" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/jQuery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
