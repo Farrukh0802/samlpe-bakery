@@ -140,12 +140,6 @@
     #carusel > ul{
         padding: 0;
     }
-    footer .container-fluid .menu ul li a .twitter{
-        margin-right: 30px;
-    }
-    footer .container-fluid .menu .logo .rounded-circle{
-        margin-left: 30px;
-    }
     .product__item{
         max-width:550px;
      }
@@ -198,7 +192,11 @@
         width: 530px;
         height: 240px;
     }
-    .section5 .row1 img {
+    
+    .section5 > .row .col-7 {
+        padding-right: 10px;
+    }
+    /* .section5 .row1 img {
         margin-left: 45px;
         margin-top: 2px;
         margin-right: 10px;
@@ -241,15 +239,9 @@
         margin-top: 30px;
         margin-left: auto;
         padding: 5px 70px;
-    }
+    } */
     .section5 h2{
         margin-top: 30px;
-    }
-    footer .container-fluid .menu ul li a .twitter{
-        margin-right: 25px;
-    }
-    footer .container-fluid .menu .logo .rounded-circle{
-        margin-left: 25px;
     }
     .product__item{
         max-width:520px;
@@ -322,7 +314,7 @@
         line-height: 80px;
     }
     iframe{
-        width: 750px;
+        width: 700px;
     }
     .location__page > h2{
         padding-top: 280px;
@@ -468,7 +460,7 @@
     }
     footer .container-fluid .menu .developer h4{
         margin-bottom: 0;
-        font-size: 20px;
+        font-size: 0;
     }
     .product__item{
         max-width:500px;
@@ -488,6 +480,12 @@
     .section2 .row .img1, .section2 .row .img1 .img2 {
         display: none;
     }
+    header .container-fluid .menu {
+        padding: 0 10px;
+    }
+    .location__info {
+        padding: 30px;
+    }
 }
 @media (min-width:576px) and (max-width:653px){
 .weeding__title {
@@ -495,7 +493,13 @@
     line-height: 65px;
 }
 iframe{
-    width: 555px;
+    width: 520px;
+}
+header .container-fluid .menu {
+    padding: 0 30px;
+}
+.location__info {
+    padding: 30px;
 }
 .location__page > h2{
     padding-top: 200px;
@@ -538,7 +542,7 @@ iframe{
         line-height: 70px;
     } 
     iframe{
-        width: 640px;
+        width: 600px;
     }
     .location__page > h2{
         padding-top: 200px;
@@ -758,7 +762,7 @@ iframe{
     footer .container-fluid .menu .developer h4{
         margin-bottom: 0;
         margin-top: 5px;
-        font-size: 20px;
+        font-size: 16px;
         padding: 0 100px;
     }
     .logo{
@@ -778,9 +782,6 @@ iframe{
     header .container-fluid #menu ul li{
         margin: 36px 10px;
 }
-header .container-fluid .rounded-circle{
-    margin-left: 30px;
-}
 .weeding__info > h2{
     padding-left: 90px;
     padding-right: 90px;
@@ -789,17 +790,17 @@ header .container-fluid .rounded-circle{
 }
 @media(min-width: 480px) and (max-width:575px){
     iframe{
-        width: 460px;
+        width: 420px;
     }
 }
 @media(min-width: 400px) and (max-width:479px){
     iframe{
-        width: 370px;
+        width: 350px;
     }
 }
 @media(min-width: 320px) and (max-width:399px){
     iframe{
-        width: 290px;
+        width: 275px;
     }
 }
 @media(min-width: 400px) and (max-width:575px){
@@ -920,7 +921,7 @@ footer .container-fluid .menu .logo .rounded-circle{
 footer .container-fluid .menu .developer h4{
     margin-bottom: 0;
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 80px;
 }
 .logo{
@@ -958,6 +959,17 @@ footer .container-fluid .menu .developer h4{
 .section2 .row .img1, .section2 .row .img1 .img2 {
     display: none;
 }
+.section3 > .products{
+    padding: 0 10px;
+}
+.section5 > .row{
+    display: block;
+    padding: 15px 10px 15px 15px;
+}
+.section5 > .row > .col-5, .section5 > .row > .col-7{
+    max-width: 100%;
+    padding-right: 0;
+}
 }
 @media(min-width:470px) and (max-width: 495px){
     .section3 ul a{
@@ -969,9 +981,6 @@ footer .container-fluid .menu .developer h4{
     }
 }
 @media(max-width: 400px ){
-    header .container-fluid .rounded-circle{
-        margin-left: 30px;
-    }
     .section1 .carusel .carousel-inner .carousel-item .content1 h1{
         font-size: 42px;
     }
@@ -1058,14 +1067,14 @@ footer .container-fluid .menu .developer h4{
     .section5 .row1 .col-6 .form-control > input::placeholder{
         font-size: 10px;
     }
-    .section5 .row3 .col-6 .btn-black{
+    /* .section5 .row3 .col-6 .btn-black{
         display: flex;
         justify-content: center;
     }
     .section5 .row3 .col-6 .btn-black .send{
         margin-left: -90%;
         padding: 5px 110px;
-    }
+    } */
     footer .container-fluid .menu{
         display: flex;
         justify-content: center;
@@ -1075,15 +1084,15 @@ footer .container-fluid .menu .developer h4{
         flex-direction: row;
     }
     footer .container-fluid .menu ul li a .facebook{
-        margin-top: 20px;
+        margin-top: 15px;
     }
     footer .container-fluid .menu ul li a .twitter{
         margin-right: 0;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     footer .container-fluid .menu ul li a .instagram{
         margin-left: 0;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     footer .container-fluid .menu .logo .rounded-circle{
         margin-left: 0;
@@ -1091,7 +1100,7 @@ footer .container-fluid .menu .developer h4{
     footer .container-fluid .menu .developer h4{
         margin-bottom: 0;
         margin-top: 5px;
-        font-size: 20px;
+        font-size: 14px;
         padding: 0 45px;
     }
     .logo{
@@ -1130,6 +1139,9 @@ footer .container-fluid .menu .developer h4{
         font-size: 16px;
         line-height: 24px;
         padding: 8px;
+    }
+    footer .container-fluid .menu .logo .rounded-circle {
+        display: none;
     }
 }
 
